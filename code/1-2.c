@@ -15,6 +15,6 @@ void print(){
     printf("Welcome to Computer Programming 03 Lab!\n");
 }
 
-int squre(int n){
+int square(int n){
     return n*n;
 }
