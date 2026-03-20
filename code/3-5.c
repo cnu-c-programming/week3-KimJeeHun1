@@ -5,7 +5,9 @@ void my_sum(char alphabet, int count,...){
     va_start(ap, count);
     if(alphabet == 'S'){
         for(int i =0;i<count; i++ ){
-            printf("%s ", va_arg(ap, char *));
+            printf("%s", va_arg(ap, char *));
+            if(i!=count -1)
+                printf(" ");
         }
     }
     if(alphabet == 'C'){
