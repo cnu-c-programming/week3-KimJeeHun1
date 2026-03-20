@@ -13,10 +13,10 @@ int div(int a, int b){
 }
 int main(void){
     int a = 10, b=5;
-    printf("a + b = %d\n", add(a, b));
-    printf("a - b = %d\n", sub(a, b));  
-    printf("a * b = %d\n", mul(a, b));
-    printf("a / b = %d\n", div(a, b));
+    printf("%d + %d = %d\n",a,b, add(a, b));
+    printf("%d - %d = %d\n", a,b,sub(a, b));  
+    printf("%d * %d = %d\n", a,b,mul(a, b));
+    printf("%d / %d = %d\n", a,b, div(a, b));
 
     return 0;
 }
